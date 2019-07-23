@@ -1,0 +1,460 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+  /* Front Page */
+
+  #frontPage {
+
+    text-align: center;
+    height: 100vh;
+    background: #bdbdbd;
+  }
+
+ #fp2 {
+  height: 100vh;
+  text-align: center;
+  background-image: url("philip.jpg");
+  background-size: cover;
+  background-position: 50%, 50%;
+  background-repeat: no-repeat;
+ }
+
+ #fp3 {
+  height: 100vh;
+  text-align: center;
+  background-image: url("philip.jpg");
+  background-size: cover;
+  background-position: 40%, 60%;
+  background-repeat: no-repeat;
+ }
+
+ #fp3 h1 {
+   padding-left: 0px;
+   font-family: 'Martel', serif;
+ }
+
+ #headingText {
+  text-align: center;
+ }
+
+#headingText h1 {
+  font-size: 6rem;
+  font-weight: 600;
+  color: white;
+}
+
+#headingText h3 {
+  color: rgb(252, 53, 53);
+  font-size: 2.5rem;
+}
+
+#headingText h5 {
+  color: rgb(67, 120, 218);
+  font-size: 1.25rem;
+}
+
+#fpText {
+  position: relative;
+  top: 50%;
+}
+
+#fpText h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color:rgb(97, 153, 212);
+}
+
+#fpText h3 {
+  color: #007BFF;
+}
+
+/* END FRONTPAGE */
+
+
+
+/* BioPage */
+
+#bioPage {
+  background: rgb(238, 238, 238);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#bioPage h1 { 
+  /* Header */
+ color: rgb(0, 0, 0);
+ font-weight: 400;
+ font-size: 2.8rem;
+ overflow: hidden;
+ text-align: center;
+ padding-top: 100px;
+ padding-bottom: 20px;
+}
+
+#bioPage p {
+  padding-bottom: 10px;
+}
+
+#bioTenets {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#lastBio {
+  margin-bottom: 0px;
+}
+
+#bioList {
+  font-size: 1.1rem;
+  font-weight: 100;
+  background: rgb(238, 238, 238);
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#bioInside{
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #FFFFFF;
+  border-radius: 25px;
+  border: 2px solid rgb(67, 120, 218);
+  padding: 20px;
+  font-weight: 600;
+}
+
+
+/* END BIOPAGE */
+
+
+
+ /* HistoryPage */
+
+ #historyPage {
+     background: white;
+     padding-left: 15%;
+     padding-right: 15%;
+     text-align: left;
+     padding-top: 100px;
+     padding-bottom: 50px;
+ }
+
+ #historyPage h1 { 
+     /* Header */
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin-bottom: 3.5%;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  #historyCont {
+    max-width: 1000px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+
+ #historyPage h2{
+     /* Job Company */
+     padding-bottom: 0px;
+     margin-bottom: 0px;
+     font-weight: 400;
+     font-size: 1.6rem;
+ }
+
+ #historyPage h3 {
+     padding-top: 5px;
+     margin-top: 0px;
+     font-weight: 80;
+     font-size: 1.3rem;
+ }
+
+ #historyPage h6 {
+     padding-top: 2px;
+     margin-top: 0px;
+     font-weight: 100;
+     font-size: 1.1rem;
+ }
+
+ #historyPage p {
+    color: rgb(0, 0, 0);
+    font-weight: 25;
+    font-size: 1rem;
+    text-align: left;
+ }
+
+#company {
+    border-radius: 30px;
+    padding: 0px;
+    border:0.6px groove white;
+    height: auto;
+    background-size: cover;
+    }
+
+#startUps h2{
+  display: inline;
+}
+
+#comp {
+  padding-bottom: 30px;
+}
+
+/* END HistoryPage */
+
+
+
+/* LearningPage */
+
+#learningPage {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  justify-content: end;
+  background: rgb(238, 238, 238);
+}
+
+#learningPage h1{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+#learningPage h2{
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 1.2em;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#learningPage h3{
+  padding-top: 15px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#learningCards {
+  justify-content: end;
+}
+
+#learningCards .card{
+  min-width: 300px;
+  min-height: 180px;
+  max-width: 400px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#learningCards .card-title {
+  text-align: center;
+}
+
+#learningCards .card-text {
+  text-align: center;
+}
+
+#learningCards p{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+#learningCards .btn {
+  width: 150px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#learningCards .col-lg-4 {
+  padding-top: 20px;
+}
+
+#learningCards .card-body {
+  border: none;
+ 
+}
+
+#learningCards .card-body h3 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#learningCards .card-body h4 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+/* END LearningPage */
+
+
+/* Contact Page */
+
+#connectPage {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#cP {
+  text-align: center;
+}
+
+#cP h1 {
+  margin-bottom: 20px;
+  font-size: 2.8rem;
+  font-weight: 400;
+}
+
+#cP h2 {
+  font-size: 1.2rem;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+#cP h3{
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+#contacts {
+  margin-top: 15px;
+}
+
+#linkedin {
+  margin-right: 15px;
+  border-radius: 30px;
+  padding: 0px;
+  border:0.6px groove white;
+}
+
+#gmail {
+  margin-left: 10px;
+}
+
+/* END ContactPage */
+
+
+
+      /* line */
+ #historyPage h1:before,
+ #historyPage h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 7%;
+  }
+ #historyPage h1:before {
+    right: 0.5em;
+    margin-left: -7%;
+  }
+ #historyPage h1:after {
+    left: 0.5em;
+    margin-right: -7%;
+  }
+  /* line */
+      /* line */
+ #connectPage h1:before,
+ #connectPage h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 7%;
+  }
+ #connectPage h1:before {
+    right: 0.5em;
+    margin-left: -7%;
+  }
+ #connectPage h1:after {
+    left: 0.5em;
+    margin-right: -7%;
+  }
+  /* line */
+
+      /* line */
+ #bioPage h1:before,
+ #bioPage h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 7%;
+  }
+ #bioPage h1:before {
+    right: 0.5em;
+    margin-left: -7%;
+  }
+ #bioPage h1:after {
+    left: 0.5em;
+    margin-right: -7%;
+  }
+  /* line */
+
+      /* line */
+ #learningPage h1:before,
+ #learningPage h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 7%;
+  }
+ #learningPage h1:before {
+    right: 0.5em;
+    margin-left: -7%;
+  }
+ #learningPage h1:after {
+    left: 0.5em;
+    margin-right: -7%;
+  }
+  /* line */
+
+        /* line */
+ #bioPage h1:before,
+ #bioPage h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: middle;
+    width: 7%;
+  }
+ #bioPage h1:before {
+    right: 0.5em;
+    margin-left: -7%;
+  }
+ #bioPage h1:after {
+    left: 0.5em;
+    margin-right: -7%;
+  }
+  /* line */
+
+
+
+  /* Navbar */
+
+  /* END Side Hover */
+
+  .toggle-text {
+    display: none;
+  }
