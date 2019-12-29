@@ -11,7 +11,7 @@ html {
 
   #frontPage {
 
-    text-align: center;
+    text-align: left;
     height: 100vh;
     background: #ffffff;
   }
@@ -19,7 +19,7 @@ html {
  #fp2 {
   height: 100vh;
   text-align: center;
-  background-image: url("philip.jpg");
+  background-image: url("philip.JPG");
   background-size: cover;
   background-position: 50%, 50%;
   background-repeat: no-repeat;
