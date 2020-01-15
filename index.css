@@ -28,7 +28,7 @@ html {
  #fp3 {
   height: 100vh;
   text-align: center;
-  background-image: url("philip.jpg");
+  background-image: url("philip.JPG");
   background-size: cover;
   background-position: 40%, 60%;
   background-repeat: no-repeat;
@@ -44,14 +44,20 @@ html {
  }
 
 #headingText h1 {
-  font-size: 6rem;
+  text-align: left;
+  padding-left: 20%;
+  font-size: 4rem;
   font-weight: 600;
   color: rgb(52, 81, 161);
 }
 
 #headingText h3 {
+  text-align: left;
+  padding-left: 20%;
   color: rgb(252, 53, 53);
-  font-size: 2.5rem;
+  font-size: 2.1rem;
+  font-family: 'Varela Round', sans-serif;
+  padding-bottom: 5px;
 }
 
 #headingText h5 {
@@ -453,9 +459,38 @@ html {
 
 
   /* Navbar */
+  #mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-left: 10%;
+}
+  #PL {
+    font-family: 'Dancing Script', cursive;
+  }
 
-  /* END Side Hover */
+  .navbar-toggler #navbar_button {
+    background-color: rgba(7, 60, 204, 0.801);
+  }
 
+#navbarSupportedContent .nav-link {
+    color: rgba(129, 155, 204, 0.562);
+    padding-left: 20px;
+}
+#navbarSupportedContent .nav-link:hover {
+    color: rgb(114, 138, 202);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(52, 81, 161);
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.979);
+    transition: background 900ms;
+}
+
+/*  */
   .toggle-text {
     display: none;
   }
