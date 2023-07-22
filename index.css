@@ -133,7 +133,7 @@ html {
   padding-right: 10px;
   background: #FFFFFF;
   border-radius: 25px;
-  border: 2px solid rgb(67, 120, 218);
+  /* border: 2px solid rgb(67, 120, 218); */
   padding: 20px;
   font-weight: 600;
 }
