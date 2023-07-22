@@ -66,6 +66,8 @@ html {
 }
 
 #headingText h7 {
+  text-align: left;
+  padding-left: 20%;
   color: rgba(67, 120, 218, 0.497);
   font-size: 1.0rem;
 }
