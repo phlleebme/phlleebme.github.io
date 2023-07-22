@@ -1,3 +1,38 @@
+  /* Navbar */
+  
+  #mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+    padding-left: 10%;
+}
+  #PL {
+    font-family: 'Dancing Script', cursive;
+  }
+
+  .navbar-toggler #navbar_button {
+    background-color: rgba(7, 60, 204, 0.801);
+  }
+
+#navbarSupportedContent .nav-link {
+    color: rgba(129, 155, 204, 0.562);
+    padding-left: 20px;
+}
+#navbarSupportedContent .nav-link:hover {
+    color: rgb(114, 138, 202);
+}
+
+#mainNavbar .navbar-brand {
+    color: rgb(52, 81, 161);
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background: rgba(255, 255, 255, 0.979);
+    transition: background 900ms;
+}
+
+/* End of Navbar */
+
 body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Poppins', sans-serif;
@@ -7,7 +42,7 @@ html {
     scroll-behavior: smooth;
 }
 
-  /* Front Page */
+  /* 1) Front Page */
 
   #frontPage {
 
@@ -83,14 +118,14 @@ html {
 }
 
 
-/* END FRONTPAGE */
+/* END 1) FRONTPAGE */
 
 
 
-/* BioPage */
+/* 2) BioPage */
 
 #bioPage {
-  background: #000;
+  background: #ffffff;
   text-align: center;
   padding-bottom: 20px;
 }
@@ -138,12 +173,53 @@ html {
   font-weight: 600;
 }
 
+/* line */
+      #bioPage h1:before,
+      #bioPage h1:after {
+         background-color: #000;
+         content: "";
+         display: inline-block;
+         height: 2px;
+         position: relative;
+         vertical-align: middle;
+         width: 7%;
+       }
+      #bioPage h1:before {
+         right: 0.5em;
+         margin-left: -7%;
+       }
+      #bioPage h1:after {
+         left: 0.5em;
+         margin-right: -7%;
+       }
+  /* line */
 
-/* END BIOPAGE */
+/* END of 2) BIOPAGE */
 
 
 
- /* HistoryPage */
+ /* 3) HistoryPage */
+
+    /* line */
+       #historyPage h1:before,
+       #historyPage h1:after {
+          background-color: #000;
+          content: "";
+          display: inline-block;
+          height: 2px;
+          position: relative;
+          vertical-align: middle;
+          width: 7%;
+        }
+       #historyPage h1:before {
+          right: 0.5em;
+          margin-left: -7%;
+        }
+       #historyPage h1:after {
+          left: 0.5em;
+          margin-right: -7%;
+        }
+    /* line */
 
  #historyPage {
      background: white;
@@ -215,11 +291,32 @@ html {
   padding-bottom: 30px;
 }
 
-/* END HistoryPage */
+/* END of 3) HistoryPage */
 
 
 
-/* LearningPage */
+/* 4) LearningPage */
+
+  /* line */
+      #learningPage h1:before,
+      #learningPage h1:after {
+         background-color: #000;
+         content: "";
+         display: inline-block;
+         height: 2px;
+         position: relative;
+         vertical-align: middle;
+         width: 7%;
+       }
+      #learningPage h1:before {
+         right: 0.5em;
+         margin-left: -7%;
+       }
+      #learningPage h1:after {
+         left: 0.5em;
+         margin-right: -7%;
+       }
+    /* line */
 
 #learningPage {
   padding-top: 100px;
@@ -304,10 +401,32 @@ html {
   font-weight: 100;
 }
 
-/* END LearningPage */
+/* END of 4) LearningPage */
 
 
-/* Contact Page */
+/* 5) Contact Page */
+
+
+  /* line */
+      #connectPage h1:before,
+      #connectPage h1:after {
+         background-color: #000;
+         content: "";
+         display: inline-block;
+         height: 2px;
+         position: relative;
+         vertical-align: middle;
+         width: 7%;
+       }
+      #connectPage h1:before {
+         right: 0.5em;
+         margin-left: -7%;
+       }
+      #connectPage h1:after {
+         left: 0.5em;
+         margin-right: -7%;
+       }
+  /* line */
 
 #connectPage {
   padding-top: 100px;
@@ -351,147 +470,9 @@ html {
   margin-left: 10px;
 }
 
-/* END ContactPage */
+/* END of 5) ContactPage */
 
 
-
-      /* line */
- #historyPage h1:before,
- #historyPage h1:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    position: relative;
-    vertical-align: middle;
-    width: 7%;
-  }
- #historyPage h1:before {
-    right: 0.5em;
-    margin-left: -7%;
-  }
- #historyPage h1:after {
-    left: 0.5em;
-    margin-right: -7%;
-  }
-  /* line */
-      /* line */
- #connectPage h1:before,
- #connectPage h1:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    position: relative;
-    vertical-align: middle;
-    width: 7%;
-  }
- #connectPage h1:before {
-    right: 0.5em;
-    margin-left: -7%;
-  }
- #connectPage h1:after {
-    left: 0.5em;
-    margin-right: -7%;
-  }
-  /* line */
-
-      /* line */
- #bioPage h1:before,
- #bioPage h1:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    position: relative;
-    vertical-align: middle;
-    width: 7%;
-  }
- #bioPage h1:before {
-    right: 0.5em;
-    margin-left: -7%;
-  }
- #bioPage h1:after {
-    left: 0.5em;
-    margin-right: -7%;
-  }
-  /* line */
-
-      /* line */
- #learningPage h1:before,
- #learningPage h1:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    position: relative;
-    vertical-align: middle;
-    width: 7%;
-  }
- #learningPage h1:before {
-    right: 0.5em;
-    margin-left: -7%;
-  }
- #learningPage h1:after {
-    left: 0.5em;
-    margin-right: -7%;
-  }
-  /* line */
-
-        /* line */
- #bioPage h1:before,
- #bioPage h1:after {
-    background-color: #000;
-    content: "";
-    display: inline-block;
-    height: 2px;
-    position: relative;
-    vertical-align: middle;
-    width: 7%;
-  }
- #bioPage h1:before {
-    right: 0.5em;
-    margin-left: -7%;
-  }
- #bioPage h1:after {
-    left: 0.5em;
-    margin-right: -7%;
-  }
-  /* line */
-
-
-
-  /* Navbar */
-  #mainNavbar {
-    font-size: 1.5rem;
-    font-weight: 100;
-    padding-left: 10%;
-}
-  #PL {
-    font-family: 'Dancing Script', cursive;
-  }
-
-  .navbar-toggler #navbar_button {
-    background-color: rgba(7, 60, 204, 0.801);
-  }
-
-#navbarSupportedContent .nav-link {
-    color: rgba(129, 155, 204, 0.562);
-    padding-left: 20px;
-}
-#navbarSupportedContent .nav-link:hover {
-    color: rgb(114, 138, 202);
-}
-
-#mainNavbar .navbar-brand {
-    color: rgb(52, 81, 161);
-    font-size: 1.5rem;
-}
-
-.navbar.scrolled {
-    background: rgba(255, 255, 255, 0.979);
-    transition: background 900ms;
-}
 
 /*  */
   .toggle-text {
