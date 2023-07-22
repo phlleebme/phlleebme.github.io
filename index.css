@@ -80,6 +80,11 @@ html {
   color: #007BFF;
 }
 
+#headingText h7 {
+  color: rgba(67, 120, 218, 0.497);
+  font-size: 1.0rem;
+}
+
 /* END FRONTPAGE */
 
 
