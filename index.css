@@ -61,11 +61,6 @@ html {
 }
 
 #headingText h5 {
-  color: rgb(67, 120, 218);
-  font-size: 1.25rem;
-}
-
-#headingText h7 {
   text-align: left;
   padding-left: 20%;
   color: rgba(67, 120, 218, 0.497);
