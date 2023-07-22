@@ -1,5 +1,5 @@
   /* Navbar */
-  
+
   #mainNavbar {
     font-size: 1.5rem;
     font-weight: 100;
@@ -33,6 +33,8 @@
 
 /* End of Navbar */
 
+
+
 body {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Poppins', sans-serif;
@@ -41,6 +43,8 @@ body {
 html {
     scroll-behavior: smooth;
 }
+
+
 
   /* 1) Front Page */
 
@@ -132,7 +136,7 @@ html {
 
 #bioPage h1 { 
   /* Header */
- color: #000;
+ color: #ffffff;
  font-weight: 400;
  font-size: 2.8rem;
  overflow: hidden;
