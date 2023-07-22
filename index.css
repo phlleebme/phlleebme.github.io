@@ -63,7 +63,7 @@ html {
 #headingText h5 {
   text-align: left;
   padding-left: 20%;
-  color: rgba(67, 120, 218, 0.497);
+  color: rgba(67, 120, 218, 0.836);
   font-size: 1.0rem;
 }
 
@@ -90,14 +90,14 @@ html {
 /* BioPage */
 
 #bioPage {
-  background: rgb(255, 255, 255);
+  background: #000;
   text-align: center;
   padding-bottom: 20px;
 }
 
 #bioPage h1 { 
   /* Header */
- color: rgb(0, 0, 0);
+ color: #000;
  font-weight: 400;
  font-size: 2.8rem;
  overflow: hidden;
