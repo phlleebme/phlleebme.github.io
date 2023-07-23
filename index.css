@@ -73,10 +73,10 @@ html {
   background-repeat: no-repeat;
  }
 
- /* #fp3 h1 {
-   padding-left: 0px;
-   font-family: 'Schibsted Grotesk', sans-serif; 
-  } */
+ #fpText {
+  position: relative;
+  top: 50%;
+}
 
  #headingText {
   text-align: center;
@@ -100,37 +100,6 @@ html {
   font-family: 'Caveat', cursive;
 }
 
-#headingText h5 {
-  padding-top: 5px;
-  text-align: left;
-  padding-left: 20%;
-  color: rgba(85, 137, 234, 0.924);
-  font-size: 1.0rem;
-}
-
-#fpText {
-  position: relative;
-  top: 50%;
-}
-
-#fpText h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  color:rgb(97, 153, 212);
-}
-
-#fpText h3 {
-  color: #007BFF;
-}
-
-/* #divtoshowhide {
-  text-align: left;
-  padding-left: 20%;
-  color: rgba(67, 120, 218, 0.836);
-  font-size: 1.0rem;
-  display: block;
-} */
-
 .BeforeScroll
 {
   text-align: left;
@@ -149,8 +118,39 @@ html {
   color: rgba(67, 120, 218, 0.836);
   font-size: 1.0rem;
   display: block;
-  transition: background 500ms;
+  transition: background 300ms;
 }
+
+ /* #fp3 h1 {
+   padding-left: 0px;
+   font-family: 'Schibsted Grotesk', sans-serif; 
+  } */
+
+/* #headingText h5 {
+  padding-top: 5px;
+  text-align: left;
+  padding-left: 20%;
+  color: rgba(85, 137, 234, 0.924);
+  font-size: 1.0rem;
+} */
+
+/* #fpText h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color:rgb(97, 153, 212);
+}
+
+#fpText h3 {
+  color: #007BFF;
+} */ */
+
+/* #divtoshowhide {
+  text-align: left;
+  padding-left: 20%;
+  color: rgba(67, 120, 218, 0.836);
+  font-size: 1.0rem;
+  display: block;
+} */
 
 /* END 1) FRONTPAGE */
 

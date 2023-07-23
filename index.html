@@ -38,6 +38,9 @@
 
 <body>
 
+
+
+
 <!--0) NAVBAR -->
 
 <nav id="mainNavbar" class="navbar navbar-light navbar-expand-md py-0 fixed-top">
@@ -72,18 +75,21 @@
 
     <section class="container-fluid">
         <div class="row flex justify-content-start" id="frontPage">
+            <div class="parallax"></div>
                 <div class="d-none d-lg-block col-6 align-self-center" id="headingText">
                         <h3>Hey there! I'm</h3>
                         <h1>Philip</h1>
                         <div id = "divToShowHide" class = "BeforeScroll">(but you can call me Phil &#128513;)</div>
                 </div>
                 <div class="d-none d-lg-block col-6" id="fp2">
+                    <!-- input text for smaller screen -->
                 </div>
 
-                <!-- <div class="d-lg-none d-block col-12 align-self-center" id="fp3">
+                <div class="d-lg-none d-block col-12 align-self-center" id="fp3">
                     <div id="fpText">
                     </div>
-                </div> -->
+            <div class="parallax"></div>
+                </div>
     </section>
 
 <!-- END of 1) INTRO PAGE -->
@@ -602,7 +608,7 @@ $(document).ready(function(){
      div.addClass("AfterScroll");
    }
    else {
-     s.removeClass("AfterScroll");
+     div.removeClass("AfterScroll");
    }
  });
 });
