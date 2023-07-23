@@ -73,10 +73,10 @@ html {
   background-repeat: no-repeat;
  }
 
- #fp3 h1 {
+ /* #fp3 h1 {
    padding-left: 0px;
-   font-family: 'Martel', serif;
- }
+   font-family: 'Schibsted Grotesk', sans-serif; 
+  } */
 
  #headingText {
   text-align: center;
@@ -85,18 +85,19 @@ html {
 #headingText h1 {
   text-align: left;
   padding-left: 20%;
-  font-size: 4rem;
+  font-size: 4.3rem;
   font-weight: 600;
   color: rgb(52, 81, 161);
+  font-family: 'Schibsted Grotesk', sans-serif; 
 }
 
 #headingText h3 {
   text-align: left;
   padding-left: 20%;
   color: rgb(252, 53, 53);
-  font-size: 2.1rem;
-  font-family: 'Varela Round', sans-serif;
+  font-size: 2.6rem;
   padding-bottom: 5px;
+  font-family: 'Caveat', cursive;
 }
 
 #headingText h5 {
