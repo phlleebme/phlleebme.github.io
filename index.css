@@ -135,7 +135,6 @@ html {
   padding-left: 20%;
   color: rgba(67, 120, 218, 0.836);
   font-size: 1.0rem;
-  display: block;
   display: none;
 }
 
@@ -145,7 +144,6 @@ html {
   padding-left: 20%;
   color: rgba(67, 120, 218, 0.836);
   font-size: 1.0rem;
-  display: block;
   display: block;
 }
 
