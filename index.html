@@ -75,8 +75,7 @@
                 <div class="d-none d-lg-block col-6 align-self-center" id="headingText">
                         <h3>Hey there! I'm</h3>
                         <h1>Philip</h1>
-                        <!-- <h5>(but you can call me Phil)</h5> -->
-                        <div id = "divToShowHide" class = "BeforeScroll">(but you can call me Phil)</div>
+                        <div id = "divToShowHide" class = "BeforeScroll">(but you can call me Phil &#128513;)</div>
                 </div>
                 <div class="d-none d-lg-block col-6" id="fp2">
                 </div>
@@ -554,6 +553,7 @@
     </script> -->
 
 <script>
+
 // NAVBAR
     $(function () {
         $(document).scroll(function () {
@@ -588,20 +588,22 @@ if ($(this).text() == "Show More") {
 
 <!-- Script for scrolling text -->
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js" type="text/javascript"></script> 
-
 <script type = "text/javascript">
+
 $(document).ready(function(){
   var div = $("#divToShowHide");
   var pos = div.position();
+  var $frontbox = $("#frontPage");
+
   $(window).scroll(function () {
    var windowpos = $(window).scrollTop();
 
-   if (windowpos >= (pos.top - 500)) {
+   if (windowpos >= ($frontbox.height()/5)) {
      div.addClass("AfterScroll");
    }
-//    else {
-//      s.removeClass("AfterScroll");
-//    }
+   else {
+     s.removeClass("AfterScroll");
+   }
  });
 });
 </script>
