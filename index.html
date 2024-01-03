@@ -75,22 +75,42 @@
 
     <section class="container-fluid">
         <div class="row flex justify-content-start" id="frontPage">
-            <div class="parallax"></div>
                 <div class="d-none d-lg-block col-6 align-self-center" id="headingText">
                         <h3>Hey there! I'm</h3>
                         <h1>Philip</h1>
                         <div id = "divToShowHide" class = "BeforeScroll">(but you can call me Phil &#128513;)</div>
                 </div>
-                <div class="d-none d-lg-block col-6" id="fp2">
+                <div class="d-none d-lg-block col-6" id="fp2"> -->
                     <!-- input text for smaller screen -->
                 </div>
 
                 <div class="d-lg-none d-block col-12 align-self-center" id="fp3">
                     <div id="fpText">
                     </div>
-            <div class="parallax"></div>
                 </div>
     </section>
+
+    <!-- <section class="container-fluid">
+        <div class="row flex justify-content-start" id="frontPage">
+                <div class="d-none d-lg-block col-6 align-self-center" id="headingText">
+                    <div class="section-title-underlay"></div>
+                        <section class="landingpage" id="lp1">Page 1</section>
+                        <section class="wecanhelp" id="wch1">Page 2</section>
+                        <section class="internet-statement" id="is1">Page 3</section>
+                        <section class="projects" id="pro1">Page 4</section>
+                        <section class="know-more-about" id="kma1">Page 5</section>
+                    <footer id="footerfortitle">Footer</footer>
+                </div>
+                <div class="d-none d-lg-block col-6" id="fp2">
+                    <div id="fpText">
+                    </div>
+                </div>
+                <div class="d-lg-none d-block col-12 align-self-center" id="fp3">
+                    <div id="fpText">
+                    </div>
+                </div>
+    </section> -->
+
 
 <!-- END of 1) INTRO PAGE -->
 
@@ -569,6 +589,8 @@
     });
 // NAVBAR
 
+// Show more/Show Less Script
+
 $(document).on("click", ".toggle-text-button", function() {
 
 
@@ -592,6 +614,9 @@ if ($(this).text() == "Show More") {
 
 </script>
 
+<!-- End of Show more/Show Less Script -->
+
+
 <!-- Script for scrolling text -->
 <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/jquery-ui.min.js" type="text/javascript"></script> 
 <script type = "text/javascript">
@@ -614,6 +639,40 @@ $(document).ready(function(){
 });
 </script>
 
+<!-- <script>
+    $(document).ready(function() {
+  $(document).scroll(function() {
+    // calculate half the viewport
+    var compensation = $(window).height() / 2;
+    // calculate where the sections start
+    var home = ($('.landingpage').offset().top) - compensation;
+    var help = ($('.wecanhelp').offset().top) - compensation;
+    var statement = ($('.internet-statement').offset().top) - compensation;
+    var projects = ($('.projects').offset().top) - compensation;
+    var knowmore = ($('.know-more-about').offset().top) - compensation;
+    var footer = ($('footer').offset().top) - compensation;
+    var scrollPos = $(document).scrollTop();
+    
+    
+    // Apply text changes
+    if (scrollPos >= help && scrollPos < statement) {
+      $('.section-title-underlay').text('Hey, my name is Philip');
+    }
+    else if (scrollPos >= statement && scrollPos < projects) {
+      $('.section-title-underlay').text('But you can call me Phil');  
+    }
+    else if (scrollPos >= projects && scrollPos < knowmore) {
+      $('.section-title-underlay').text('Here are some of the things I am working on');  
+    }
+    else if (scrollPos >= knowmore && scrollPos < footer) {
+      $('.section-title-underlay').text('Biomedical Engineering');  
+    }
+    else {
+      $('.section-title-underlay').text('Else show this');  
+    } 
+  }); // close scroll function
+}); // close document ready
+</script> -->
     
 </body>
 
